@@ -1,11 +1,17 @@
-# the-minimax-algorithm
+# *Cat-and-Mouse AI Chase**
 
-Descripción
-Este es un juego del gato y el ratón implementado en Python utilizando la biblioteca Tkinter para la interfaz gráfica. En este juego, un gato intenta atrapar a un ratón en un tablero rectangular con obstáculos generados aleatoriamente. La inteligencia artificial del juego utiliza el algoritmo Minimax con poda alpha-beta para determinar los movimientos del gato y el ratón.
+## Description
+**Cat-and-Mouse AI Chase** is a Python game where a cat attempts to catch a mouse on a customizable board with obstacles. Built with Tkinter for the graphical interface, this game features an AI-driven Minimax algorithm with alpha-beta pruning, making for a challenging and strategic experience as you try to outmaneuver the computer-controlled opponent.
 
-Características
-Interfaz Gráfica: Utiliza Tkinter para una experiencia de usuario interactiva.
-Configuración Personalizada: Permite al usuario configurar el tamaño del tablero y el número de obstáculos antes de iniciar el juego.
-Algoritmo Minimax con Poda Alpha-Beta: Implementa una estrategia de búsqueda óptima para determinar los movimientos de los personajes.
-Validación de Movimientos: Verifica que los movimientos sean válidos y no interfieran con obstáculos.
-Finalización del Juego: Detecta cuando el gato ha atrapado al ratón y muestra un mensaje de fin del juego.
+## Features
+- **Interactive Graphical Interface**: Utilizes Tkinter to provide a user-friendly, interactive experience.
+- **Customizable Game Setup**: Allows players to set the board size and number of obstacles, adding replayability and varying difficulty levels.
+- **Advanced AI with Minimax Algorithm**: The AI optimally controls the character movements using Minimax with alpha-beta pruning for strategic gameplay.
+- **Move Validation**: Ensures all moves are valid and avoid obstacles or board boundaries.
+- **Game-End Detection**: The game ends when the cat catches the mouse, with a game-over message displayed.
+
+## How to Play
+1. **Configure Game Settings**: Adjust the number of rows, columns, and obstacles from the configuration screen.
+2. **Choose Your Character**: Play as either the cat or the mouse.
+3. **Control Your Character**: Use the arrow keys to move while the AI controls the other character, calculating moves based on Minimax.
+4. **Objective**: As the mouse, avoid the cat; as the cat, try to catch the mouse. The game ends when the cat successfully catches the mouse.
